@@ -13,6 +13,10 @@ def check_status():
         return 1
 
 #AWS CREDENTIALS
+database={'host':'databaseforapps.crqz3utzk1v9.us-west-2.rds.amazonaws.com',
+'user':'realslimshanky',
+'password':'masterfordbaws',
+'db':'workiot',}
 
 mac = getnode()
 strength = check_battery()
@@ -51,7 +55,6 @@ while True:
                             sql = "INSERT INTO `client` (`mac`, `strength`, `status`) VALUES (%s, %s, %s)"
                             cursor.execute(sql,(mac, strength, status))
                             connection.commit()
-
         finally:
                 connection.close()
     if int(strength) > 100:
