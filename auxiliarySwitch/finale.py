@@ -4,10 +4,9 @@ import time
 
 gpio.setmode(gpio.BCM)
 gpio.setup(8,gpio.OUT)
-gpio.output(8,0)
-n = int(input("Enter strength: "))
+gpio.output(8,1)
 
-database={'host':'hidden.rds.amazonaws.com',
+database={'host':'somewhere.rds.amazonaws.com',
 'user':'anon',
 'password':'secret',
 'db':'workiot',}
@@ -26,12 +25,15 @@ try:
                             connection.commit()
                             result=cursor.fetchall()
    
-            if(result[0]["strength"]>99 and result[0]["status"]!=0):
-                gpio.output(8,1)
-                time.sleep(5)
-            else:
+            print(result[0]["strength"],result[0]["status"])
+            if(int(result[0]["strength"])>99 or int(result[0]["status"])==0):
                 gpio.output(8,0)
                 time.sleep(5)
+                print("Cut off")
+            else:
+                gpio.output(8,1)
+                time.sleep(5)
+                print("active")
 
 
 except:
