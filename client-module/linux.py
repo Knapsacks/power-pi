@@ -14,7 +14,6 @@ def check_status():
 
 #AWS CREDENTIALS
 
-
 mac = getnode()
 strength = check_battery()
 status = check_status()
@@ -31,8 +30,8 @@ try:
                             cursor.execute(sql,(mac, strength, status))
                             connection.commit()
 
-        finally:
-                connection.close()
+finally:
+        connection.close()
 
 while True:
     sleep(1)
