@@ -2,6 +2,7 @@ from subprocess import Popen
 from time import sleep
 from uuid import getnode
 import pymysql.cursors
+import json
 
 def check_battery():
     return open('/sys/class/power_supply/BAT0/capacity').read().split()[0]
@@ -13,10 +14,7 @@ def check_status():
         return 1
 
 #AWS CREDENTIALS
-database={'host':'databaseforapps.crqz3utzk1v9.us-west-2.rds.amazonaws.com',
-'user':'realslimshanky',
-'password':'masterfordbaws',
-'db':'workiot',}
+database=json.loads(open('db.json').read())[0]
 
 mac = getnode()
 strength = check_battery()
