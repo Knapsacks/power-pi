@@ -26,10 +26,13 @@ On a macroscopic scale, such taken for granted tiny idling load accounts for eno
 1. Download 'client.zip' (from this repository)
 2. Extract 'cleint.zip'
 3. cd path/to/client (in terminal)
-4. sudo chmod +x linux.sh
-5. run "./linux.sh"
+4. ```
+   sudo chmod +x linux.sh
+   
+5. ```
+   ./linux.sh
 
 ### Web Based Monitoring
 
 Visit Dashboard [Power Pi](http://knapsacks.github.io/power-pi/) for Power Saving Analysis
-(default I'd and password is 'admin' & 'admin' respectively)
+(default username and password is 'admin' & 'admin' respectively)
