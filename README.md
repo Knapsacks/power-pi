@@ -23,15 +23,23 @@ On a macroscopic scale, such taken for granted tiny idling load accounts for eno
 
 ### Daemon
 
-1. Download 'client.zip' (from this repository)
-2. Extract 'cleint.zip'
-3. cd path/to/client (in terminal)
-4. ```
-   sudo chmod +x linux.sh
-   
-5. ```
-   ./linux.sh
+1. Download 'client-module.zip' (from this repository)
+2. Extract 'client-module.zip'
 
+3. Change Directory to the path of the Client-Module in Terminal 
+
+4. ```
+   cd path/to/client-module
+   
+5. Change Permissions to make it executable
+
+6. ```
+   sudo chmod +x linux.sh
+
+7. RUN the script
+
+8. ```
+   ./linux.sh
 ### Web Based Monitoring
 
 Visit Dashboard [Power Pi](http://knapsacks.github.io/power-pi/) for Power Saving Analysis
