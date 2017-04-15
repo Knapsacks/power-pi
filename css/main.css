@@ -1,0 +1,7 @@
+#area_chart{
+    position: absolute;
+    z-index: -10000;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
