@@ -1,4 +1,4 @@
-# Power Pi - http://bit.do/power-pi
+# Power Pi
 ### Optimizing Power Sockets for Phantom Load
 
 ## Background
@@ -42,5 +42,4 @@ On a macroscopic scale, such taken for granted tiny idling load accounts for eno
    ./linux.sh
 ### Web Based Monitoring
 
-Visit Dashboard [Power Pi](http://knapsacks.github.io/power-pi/) for Power Saving Analysis
-(default username and password is 'admin' & 'admin' respectively)
+Visit Dashboard [Power Pi](http://bit.do/power-pi) for Power Saving Analysis
