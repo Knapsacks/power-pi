@@ -1,4 +1,4 @@
-# Power Pi
+# Power Pi - http://bit.do/power-pi
 ### Optimizing Power Sockets for Phantom Load
 
 ## Background
