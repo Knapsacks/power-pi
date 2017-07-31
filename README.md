@@ -5,7 +5,7 @@
 
 No Consumer Electronic device is Ideal. That is, some electrical energy is lost in the form of dissipation (like eddy current loss, joules heating loss, hysteresis etc.) Similarly, devices also lose energy while idling. That is, on standby mode. In technical terms, this is also called No Load Power, Vampire Power, Phantom Load or Leaking electricity.
 
-![Transformer](https://github.com/ankitrai96/power-pi/blob/master/resourcestransformer.gif)
+![Transformer](https://github.com/ankitrai96/power-pi/blob/master/resources/transformer.gif)
 
 If there is no current flowing in the secondary side , there is no de-magnetising flux generated that means there is no need to draw more current from the source . So primary current would contain only the exciting current (i.e. 'NO LOAD CURRENT').
 
