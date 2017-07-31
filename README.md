@@ -1,4 +1,4 @@
-# Power Pi
+# Power-Pi
 ### Optimizing Power Sockets for Phantom Load
 
 ## Background
@@ -15,9 +15,10 @@ On a macroscopic scale, such taken for granted tiny idling load accounts for eno
 
 ## Power Pi 
 
-1. Power Pi is the manifestation of Internet of Things. It reflects the elegant power of Raspberry Pi to control Direct current based electronics, which here inturn controls Alternating Current (Power Sockets). A python based Daemon for linux (or a service for windows) updates a database on cloud. The database contains the Mac Address(unique) of devices, its charging status (charging/discharging) and strength of battery
-2. The above database is accessed by a Raspberry Pi (and thence implementing the core essence of IoT). The data received is then processed on raspberry pi to control a relay switch accordingly
-3. The relay switch (embedded on Power Socket) acts as an auxiliary circuit underneath the primary switch. So that even when someone forgets to pull the plug or switch off power socket, the Power Pi opens the circuit.
+1. Power-Pi is the manifestation of Internet of Things. It reflects the elegant power of Raspberry Pi to control Direct current based electronics, which here inturn controls Alternating Current (Power Sockets). A python based Daemon for linux (or a service for windows) updates a database on cloud. The database contains the Mac Address(unique) of devices, its charging status (charging/discharging) and strength of battery
+2. The above database is accessed by a Raspberry Pi (and thence implementing the core essence of IoT). The data received is then processed on raspberry-pi to control a relay switch accordingly
+3. The relay switch (embedded on Power Socket) acts as an auxiliary circuit underneath the primary switch. So that even when someone forgets to pull the plug or switch off power socket, the Power Pi opens the circuit
+4. Moreover, the data can be processed to analyze power consumption and conservation
 
 ## Getting Started with Power Pi
 
@@ -40,6 +41,9 @@ On a macroscopic scale, such taken for granted tiny idling load accounts for eno
 
 8. ```
    ./linux.sh
-### Web Based Monitoring
 
-Visit Dashboard [Power Pi](http://bit.do/power-pi) for Power Saving Analysis
+### Mobile Application for monitoring
+
+Power-Pi also has an android mobile application (PowerPi.apk) which has been developed keeping in mind the need to visualize the entire process. It facilitates the user to see how much energy his Power-Pi setup is saving. Additionaly, the same app can also be doubled up as a home automation interface working on top of the same Power-Pi setup.
+
+![Walkthrough of Mobile App](https://github.com/Knapsacks/power-pi/blob/master/resources/AppWalkThrough.gif)
