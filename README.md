@@ -46,4 +46,4 @@ On a macroscopic scale, such taken for granted tiny idling load accounts for eno
 
 Power-Pi also has an android mobile application (PowerPi.apk) which has been developed keeping in mind the need to visualize the entire process. It facilitates the user to see how much energy his Power-Pi setup is saving. Additionaly, the same app can also be doubled up as a home automation interface working on top of the same Power-Pi setup.
 
-![Walkthrough of Mobile App](https://github.com/ankitrai96/power-pi/blob/master/resources/AppWalkThrough.gif){:height="420px" width="236px"}
+![Walkthrough of Mobile App]( power-pi/resources/AppWalkThrough.gif){:height="420px" width="236px"}
