@@ -13,7 +13,7 @@ If there is no current flowing in the secondary side , there is no de-magnetisin
 
 On a macroscopic scale, such taken for granted tiny idling load accounts for enormous power wastage over time.
 
-## Power Pi 
+## General Overview 
 
 1. Power-Pi is the manifestation of Internet of Things. It reflects the elegant power of Raspberry Pi to control Direct current based electronics, which here inturn controls Alternating Current (Power Sockets). A python based Daemon for linux (or a service for windows) updates a database on cloud. The database contains the Mac Address(unique) of devices, its charging status (charging/discharging) and strength of battery
 2. The above database is accessed by a Raspberry Pi (and thence implementing the core essence of IoT). The data received is then processed on raspberry-pi to control a relay switch accordingly
